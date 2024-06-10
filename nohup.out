@@ -1,0 +1,6 @@
+parallel: SIGTERM received. No new jobs will be started.
+parallel: Waiting for these 2 jobs to finish. Send SIGTERM again to stop now.
+parallel: ./randomdatasector2x2.sh 20 1
+parallel: ./randomdatasector2x2.sh 20 2
+Simulating r=20  sector=1
+Simulating r=20  sector=2
