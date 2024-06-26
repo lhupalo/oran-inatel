@@ -15,7 +15,6 @@ if __name__ == "__main__":
             args.input_folder + "/*mimo=" + mimo + "*.pqt", recursive=True
         )
         files= [ x for x in files if "sector" not in x ]
-        print(files)
         if len(files) != 0:
             database = []
             for file in files:

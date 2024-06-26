@@ -69,30 +69,3 @@ if __name__ == "__main__":
     filename = output_folder + filename
     output_path = filename + ".pqt"
     finaldata.to_parquet(output_path)
-
-
-# Essa parte do codigo junta todos os arquivos processados para gerar um unico arquivo que vai
-# ser usado para o treinamento. Para rodar essa parte, comente o codigo acima e rode o comando python3 datasector.py
-# folder="data/8x8sector/"
-# d1=pd.read_parquet(folder+"BC-random-positions-r=10.pqt")
-# d2=pd.read_parquet(folder+"BC-random-positions-r=20.pqt")
-# d3=pd.read_parquet(folder+"BC-random-positions-r=30.pqt")
-# d4=pd.read_parquet(folder+"BC-random-positions-r=40.pqt")
-# d5=pd.read_parquet(folder+"BC-random-positions-r=50.pqt")
-# d6=pd.read_parquet(folder+"BC-random-positions-r=60.pqt")
-# d7=pd.read_parquet(folder+"BC-random-positions-r=70.pqt")
-# d8=pd.read_parquet(folder+"BC-random-positions-r=80.pqt")
-# d9=pd.read_parquet(folder+"BC-random-positions-r=90.pqt")
-# d10=pd.read_parquet(folder+"BC-random-positions-r=100.pqt")
-# d11=pd.read_parquet(folder+"BC-random-positions-r=110.pqt")
-# # esse arquivo são pontos aleatorios ao redor da BS. Coloquei para que o modelo saida dessa zona
-# d12=pd.read_parquet(folder+"antenna.pqt")
-
-
-# databases=[d1, d2, d3, d4, d5, d6, d7, d8, d9, d10, d11, d12]
-# bigdata=pd.concat(databases)
-# bigdata.reset_index(drop=True)
-# bigdata.to_parquet(folder+"BC-random-positions.pqt")
-
-# newdata=pd.read_parquet(folder+"BC-random-positions.pqt")
-# print(newdata)

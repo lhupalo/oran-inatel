@@ -41,7 +41,7 @@ build-dir/
 build/
 /.cproject
 /.project
-.vscode/*
+.vscode/
 results/*
 docs/
 local_build.sh
