@@ -19,11 +19,7 @@ do
     echo "Opening" $(basename -- "$data")"..."
     # eliminate unseful text
     sed -i '/waf/d;/build/d;/\[/d;/Traceback/d;/run_commands/d;/ctx/d;/return/d;/m(self)/d;/root/d;/File/d;/obj/d;/parse_constant/d;/json/d;/raise/d;' ./$fder/$(basename -- "$data")
-    # run python
-    # 1 arg. arquivo
-    # 2 arg. arq saida
     python3 datasector.py ./$fder/$(basename -- "$data") ./$fder/ 
-
     echo "File terminated..."
     
 done
