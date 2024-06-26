@@ -46,6 +46,6 @@ results/*
 docs/
 local_build.sh
 logs
-**nohup.out
+nohup.out
 *.ipynb
 .lock-waf_linux_build

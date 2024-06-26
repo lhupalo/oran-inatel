@@ -3,7 +3,7 @@
 mimo=$1
 radio=$2
 secto=$3
-trials=1
+trials=2
 echo "Simulating mimo=$mimo"x"$mimo, r=$radio and sector=$secto"
 
 for counter in $(seq 1 $trials); do
