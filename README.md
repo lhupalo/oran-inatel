@@ -1,7 +1,8 @@
 # O-RAN Dataset Generator w/ ns3 Simulator
 
-Copyright 2024 Inatel<br>
-Luiz Eduardo Hupalo
+## Overview
+<!-- Copyright 2024 Inatel<br>
+Luiz Eduardo Hupalo -->
 
 
 This work is based on the mmwave repo: [GitHub NYU Wireless mmwave](https://github.com/nyuwireless-unipd/ns3-mmwave)
@@ -12,15 +13,15 @@ First of all, take a look on the mmwave repo mentioned previously. There, you'll
 
 After that, clone this repo and run the following commands:
 
-1. `./waf configure --enable-examples`
-2. `./waf build`
+1. `./waf configure --enable-examples` (ok)
+2. `./waf build` (ok)
 
-Maybe it can occur errors related to the folder `src/opengym`. If that happens, run the following commands:
+<!-- Maybe it can occur errors related to the folder `src/opengym`. If that happens, run the following commands:
 
 3. `cd src/opengym`
 4. `pip3 install --user ./model/ns3gym/`
 
-Then, re-run the commands 1 and 2.
+Then, re-run the commands 1 and 2. -->
 
 ## Building the Scenario
 
