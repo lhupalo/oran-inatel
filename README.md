@@ -48,6 +48,13 @@ This repository contains simulation scripts for generating a beam pair database 
 
     This script generates Parquet files organized by sector and rings for further analysis. The main file required for training ML models is `beam_pair_data_mimo=<mimo_config>x<mimo_config>.pqt`.
 
+## Reproducing Results
+
+To reproduce the results and figures presented in the manuscript, please follow these steps:
+
+1. **Untar file**: Untar the file "reported_results.tar.xz".
+2. **Runnig jupyter**: Refer to the "reproduce_results.ipynb" file for instructions on reproducing the figures and results.
+
 ## Cite us
 
 If you find the paper and this repository useful in your research, please use the following BibTeX entry for citation.
