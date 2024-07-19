@@ -11,12 +11,15 @@ This repository contains simulation scripts for generating a beam pair database 
     ```bash
     git clone https://github.com/lhupalo/oran-inatel.git
     ```
+
 2. **Configure NS3 simulator**: Set up NS3 simulator with the following command:
 
     ```bash
     ./waf configure --enable-examples
     ```
+
 3. **Build NS3 Simulator along mmWave module**: Build NS3 simulator including the mmWave module:
+
     ```bash
     ./waf build
     ```
@@ -37,12 +40,12 @@ This repository contains simulation scripts for generating a beam pair database 
 
     Simulation results are saved as TXT files in the `results` folder with names like `beam_pair_data_mimo=<mimo_config>x<mimo_config>_r=<radius_value>_sector=<sector_number>.txt`.
 
-
 5. **Processing simulation files to create beam pair database**: After simulations, process beam pair data with:
 
     ```bash
     ./beam_pair_database.sh
     ```
+
     This script generates Parquet files organized by sector and rings for further analysis. The main file required for training ML models is `beam_pair_data_mimo=<mimo_config>x<mimo_config>.pqt`.
 
 ## Cite us
