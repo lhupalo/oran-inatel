@@ -52,8 +52,9 @@ This repository contains simulation scripts for generating a beam pair database 
 
 To reproduce the results and figures presented in the manuscript, please follow these steps:
 
-1. **Untar file**: Untar the file "reported_results.tar.xz".
-2. **Runnig jupyter**: Refer to the "reproduce_results.ipynb" file for instructions on reproducing the figures and results.
+1. **Download artifacts**: Visit [Artifacts](https://drive.google.com/file/d/1tiQb5DxJHROuh8QkSgJyTMgb80n5qaqz/view?usp=sharing) and download the zip file containing all artifacts used in this study.
+2. **Extract files**: Place the downloaded "reported_results.zip" file in this directory and extract its contents.
+3. **Runnig Jupyter Notebook**: Refer to the "reproduce_results.ipynb" file for instructions on reproducing the figures and results.
 
 ## Cite us
 
