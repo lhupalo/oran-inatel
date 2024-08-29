@@ -33,11 +33,11 @@ This repository contains simulation scripts for generating a beam pair database 
     Replace `<mimo_config>` with the MIMO configuration (options: 2, 4, 8) and `<cpu_number>` with the number of CPUs for parallel distributed simulations.
 
     >**OPTIONAL**: To generate beam pair data for a specific sector, use:
->
+    >
     > ```bash
     > ./beam_pair_data_by_sector.sh <mimo_config> <radius_value> <sector_number>
     > ```
->
+    >
     > Replace `<radius_value>` with the external radius of the ring for beam pair sampling and `<sector_number>` with the sector number (1 to 12).
 
     Simulation results are saved as TXT files in the `results` folder with names like `beam_pair_data_mimo=<mimo_config>x<mimo_config>_r=<radius_value>_sector=<sector_number>.txt`.
