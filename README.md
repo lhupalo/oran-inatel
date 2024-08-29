@@ -33,9 +33,11 @@ This repository contains simulation scripts for generating a beam pair database 
     Replace `<mimo_config>` with the MIMO configuration (options: 2, 4, 8) and `<cpu_number>` with the number of CPUs for parallel distributed simulations.
 
     >**OPTIONAL**: To generate beam pair data for a specific sector, use:
+>
     > ```bash
     > ./beam_pair_data_by_sector.sh <mimo_config> <radius_value> <sector_number>
     > ```
+>
     > Replace `<radius_value>` with the external radius of the ring for beam pair sampling and `<sector_number>` with the sector number (1 to 12).
 
     Simulation results are saved as TXT files in the `results` folder with names like `beam_pair_data_mimo=<mimo_config>x<mimo_config>_r=<radius_value>_sector=<sector_number>.txt`.
@@ -61,9 +63,21 @@ To reproduce the results and figures presented in the manuscript, please follow 
 If you find the paper and this repository useful in your research, please use the following BibTeX entry for citation.
 
 ```BibTeX
-@article{marenco2024beampairml,
-  author =       {Ludwing Marenco, Luiz E. Hupalo, Naylson F. Andrade and Felipe A. P. Figueiredo},
-  title =        {Machine-Learning-Aided Method for Optimizing Beam Selection and Update Period in 5G Networks and Beyond},
-  doi = {https://doi.org/10.21203/rs.3.rs-4546043/v1},
-  year =         {2024}
+@Article{Marenco2024,
+author={Marenco, Ludwing
+and Hupalo, Luiz E.
+and Andrade, Naylson F.
+and de Figueiredo, Felipe A. P.},
+title={Machine-learning-aided method for optimizing beam selection and update period in 5G networks and beyond},
+journal={Scientific Reports},
+year={2024},
+month={Aug},
+day={29},
+volume={14},
+number={1},
+pages={20103},
+issn={2045-2322},
+doi={10.1038/s41598-024-70651-9},
+url={https://doi.org/10.1038/s41598-024-70651-9}
 }
+```
