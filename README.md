@@ -1,5 +1,7 @@
 # Repository for Machine-Learning-Aided Method for Optimizing Beam Selection and Update Period in 5G Networks and Beyond
 
+[![alt text](https://img.shields.io/badge/Paper_DOI-10.1038%2Fs41586--024--07930--y-green?style=flat&link=https%3A%2F%2Fdoi.org%2F10.1038%2Fs41586-024-07930-y)](https://doi.org/10.1038/s41598-024-70651-9)
+
 ## Overview
 
 This repository contains simulation scripts for generating a beam pair database based on the method proposed in "Machine-Learning-Aided Method for Optimizing Beam Selection and Update Period in 5G Networks and Beyond". The simulation scripts utilize the NS3 simulator to emulate a mmWave scenario ([NS3 mmWave](https://github.com/nyuwireless-unipd/ns3-mmwave)) consisting of a single user device randomly located relative to a gNB placed at the origin. Parameters for transmission and details of the data collection methodology are explained thoroughly in the proposed method section. Please refer to the Instructions section for guidance on dataset generation.
